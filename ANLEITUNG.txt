@@ -1,0 +1,35 @@
+HANDBALL SPIELZEIT – App auf das iPad bringen
+=============================================
+
+Die App besteht aus den Dateien in diesem Ordner. Sie muss einmal im Internet
+liegen, damit Safari sie auf dem iPad installieren kann. Danach startet sie
+vom Home-Bildschirm auch ohne Internet, und alle Daten bleiben auf dem iPad.
+
+1. Ordner online stellen (einmalig, kostenlos)
+   - Am Computer https://app.netlify.com/drop öffnen.
+   - Den Ordner "spielzeit" (entpackt) auf die Seite ziehen.
+   - Gratis-Konto anlegen und das Projekt übernehmen ("claim"),
+     sonst wird es nach kurzer Zeit wieder gelöscht.
+   - Du bekommst eine Adresse wie https://irgendwas.netlify.app
+
+2. Auf dem iPad installieren
+   - Die Adresse in Safari öffnen.
+   - Teilen-Symbol > "Zum Home-Bildschirm".
+   - Die App einmal vom Home-Bildschirm aus starten, solange WLAN da ist.
+     Ab dann läuft sie offline.
+
+3. Wichtig
+   - Kader erst in der installierten App eintragen. Safari und die
+     installierte App speichern getrennt.
+   - Regelmäßig im Menü "Daten sichern" tippen und die Datei in
+     "Dateien" oder iCloud ablegen. Mit "Daten laden" holst du alles
+     zurück, auch auf ein neues iPad.
+   - Für das Spiel: Einstellungen > Anzeige & Helligkeit >
+     Automatische Sperre auf "Nie" stellen.
+
+4. Neue Version einspielen
+   - In Netlify dein Projekt öffnen > "Deploys" und den neuen
+     Ordner "spielzeit" auf das Feld ziehen. Die Adresse bleibt gleich.
+   - Am iPad die App mit Internet zweimal öffnen: beim ersten Mal
+     lädt sie die neue Version, beim zweiten Mal läuft sie.
+   - Kader, Fotos und gespeicherte Spiele bleiben erhalten.
